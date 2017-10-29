@@ -14,7 +14,7 @@
         "targets": [
           {
             "target_name": "systemFolders",
-            //"sources": [ "" ],
+            "sources": [ "src/blank.cc" ],
           }
         ]  
       }
