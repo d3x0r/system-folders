@@ -2,6 +2,11 @@
 
 Result with standard folders appropriate by system.
 
+A Note on extending paths... many people have a misconception that backslash ('\\') is the only valid path character on windows.  This is not true; 
+instead windows accepts internall either forward-slash ('/') or backslash('\\') as equivalent path separators.  The only exception to this is when specifying a 
+path that is on a remote computer share, in which case backslash('\\') must be used as in '\\\\computer\\share' but after that point forward slashses
+may be used.  On all linux systems only '/' is valid.
+
 ##Usage
 
 ```
@@ -17,10 +22,11 @@ systemFolders( "myAppName" ); // configure paths to include my application's nam
 | appData | where common application local data should be stored |
 | documents | current user's document directory |
 | downloads | current user's download directory |
+| temp | where to put temporary files |
 
 
 
-Win32 example output (without app name configured):
+#### Win32 example output (without app name configured):
 
 ```
 {
@@ -33,7 +39,7 @@ Win32 example output (without app name configured):
 
 ```
 
-Win32 example output (app name configured):
+#### Win32 example output (app name configured):
 
 ```
 {
