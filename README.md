@@ -54,3 +54,11 @@ systemFolders( "myAppName" ); // configure paths to include my application's nam
 
 ```
 
+
+
+
+
+## Changelog
+
+- 1.0.114 - Fixed so binary code is only built on windows platforms.
+- 1.0.0-1.0.113 - Initiial commit; Work out non-building on non-windows systems.
