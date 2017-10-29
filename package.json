@@ -1,6 +1,6 @@
 {
   "name": "system-folders",
-  "version": "1.0.1",
+  "version": "1.0.111",
   "description": "Get common folders in a unified way.",
   "main": "system-dirs.js",
   "scripts": {
