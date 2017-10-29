@@ -9,13 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "tbd"
+    "url": "d3x0r/system-folders"
   },
   "keywords": [
     "system-directories",
     "system-path",
     "user-data",
     "/usr/local"
+    "common",
+    "directories",
+    "paths",
+    "folders",
+    "user",
+    "temporary",
   ],
   "author": "d3x0r",
   "license": "ISC"

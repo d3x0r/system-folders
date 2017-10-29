@@ -7,6 +7,8 @@ instead windows accepts internall either forward-slash ('/') or backslash('\\') 
 path that is on a remote computer share, in which case backslash('\\') must be used as in '\\\\computer\\share' but after that point forward slashses
 may be used.  On all linux systems only '/' is valid.
 
+Please leave issues on github for feature requests/fixes, questions, comments or criticisms.  Or [![Join the chat at https://gitter.im/d3x0r/sack-folders/Lobby](https://badges.gitter.im/d3x0r/system-folders/Lobby.svg)](https://gitter.im/d3x0r/system-folders/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##Usage
 
 ```
