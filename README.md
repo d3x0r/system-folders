@@ -1,5 +1,7 @@
 #system-folders
 
+[![Join the chat at https://gitter.im/d3x0r/system-folders](https://badges.gitter.im/d3x0r/system-folders.svg)](https://gitter.im/d3x0r/system-folders?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Result with standard folders appropriate by system.
 
 A Note on extending paths... many people have a misconception that backslash ('\\') is the only valid path character on windows.  This is not true; 
