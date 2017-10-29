@@ -1,12 +1,13 @@
 {
   "name": "system-folders",
-  "version": "1.0.112",
+  "version": "1.0.113",
   "description": "Get common folders in a unified way.",
   "main": "system-dirs.js",
   "scripts": {
     "test": "node testdirs.js",
     "build": "node-gyp configure build",
-    "preinstall":"node remove-gyp.js"
+    "preinstall":"node remove-gyp.js",
+    "install":"node-gyp configure build"
   },
   "repository": {
     "type": "git",
