@@ -22,7 +22,7 @@ static void getAppData( const FunctionCallbackInfo<Value>& args ) {
 
 static void getDocuments( const FunctionCallbackInfo<Value>& args ) {
 	CHAR path[MAX_PATH];
-	HRESULT hr = SHGetFolderPath( NULL, CSIDL_COMMON_DOCUMENTS, NULL, SHGFP_TYPE_CURRENT, path );
+	HRESULT hr = SHGetFolderPath( NULL, CSIDL_MYDOCUMENTS, NULL, SHGFP_TYPE_CURRENT, path );
 	if( hr == S_OK )
 		args.GetReturnValue().Set( String::NewFromUtf8( args.GetIsolate(), path ) );
 	else

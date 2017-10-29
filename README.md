@@ -6,6 +6,7 @@ Result with standard folders appropriate by system.
 
 ```
 const systemFolders = require( '.' );
+systemFolders( "myAppName" ); // configure paths to include my application's name
 ```
 
 ### System Folders result Object fields
@@ -19,15 +20,28 @@ const systemFolders = require( '.' );
 
 
 
-Win32 example output:
+Win32 example output (without app name configured):
 
 ```
 {
   home: C:\\Users\\Youzer,
-  appData: 'C:\\Users\\Youzer\\AppData\\Roaming',
+  appData: 'C:\\Users\\Youzer\\AppData\\Local',
   documents: 'C:\\Users\\Youzer\\Documents',
   download: 'C:\\Users\\Youzer\\Downloads',
   temp: 'C:\\Users\\Youzer\\AppData\\Local\\Temp' 
+}
+
+```
+
+Win32 example output (app name configured):
+
+```
+{
+  home: C:\\Users\\Youzer,
+  appData: 'C:\\Users\\Youzer\\AppData\\Local\\myAppName',
+  documents: 'C:\\Users\\Youzer\\Documents\\myAppName',
+  download: 'C:\\Users\\Youzer\\Downloads',
+  temp: 'C:\\Users\\Youzer\\AppData\\Local\\Temp\\myAppName' 
 }
 
 ```
