@@ -1,4 +1,4 @@
-#system-folders
+# System Folders
 
 Result with standard folders appropriate by system.
 
@@ -9,7 +9,7 @@ may be used.  On all linux systems only '/' is valid.
 
 Please leave issues on github for feature requests/fixes, questions, comments or criticisms.  Or [![Gitter](https://badges.gitter.im/d3x0r/system-folders.svg)](https://gitter.im/d3x0r/system-folders?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-##Usage
+## Usage
 
 ```
 const systemFolders = require( '.' );
