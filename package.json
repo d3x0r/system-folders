@@ -1,0 +1,22 @@
+{
+  "name": "system-folders",
+  "version": "1.0.0",
+  "description": "Get common folders in a unified way.",
+  "main": "system-dirs.js",
+  "scripts": {
+    "test": "node testdirs.js",
+    "build": "node-gyp configure build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tbd"
+  },
+  "keywords": [
+    "system-directories",
+    "system-path",
+    "user-data",
+    "/usr/local"
+  ],
+  "author": "d3x0r",
+  "license": "ISC"
+}
