@@ -15,13 +15,13 @@
     "system-directories",
     "system-path",
     "user-data",
-    "/usr/local"
+    "/usr/local",
     "common",
     "directories",
     "paths",
     "folders",
     "user",
-    "temporary",
+    "temporary"
   ],
   "author": "d3x0r",
   "license": "ISC"
